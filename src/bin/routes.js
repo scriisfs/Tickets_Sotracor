@@ -7,7 +7,7 @@ app.use(bodyParser.json());
 
 //Pagina principal
 app.get("/", function(req, res) {
-  res.send("My music collection v1.0");
+  res.send("Bienvenidos a tickets sotracor");
 });
 
 //Traer todos los usuarios
